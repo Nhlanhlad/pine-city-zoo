@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Visitor Feedback - Pine City Zoo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Visitor Feedback</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="animals.html">Animals</a>
+      <a href="places.html">Places</a>
+      <a href="weather.html">Weather</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>We Value Your Feedback!</h2>
+      <p>Tell us about your experience at Pine City Zoo. Your suggestions help us improve and make the zoo better for all our guests!</p>
+
+      <form action="message-received.html" method="GET">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="message">Your Feedback:</label><br />
+        <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+
+        <button type="submit">Send Feedback</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Pine City Zoo. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+✅ Also Include a Confirmation Page: message-received.html
+html
+Copy
+Edit
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thank You!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Thank You for Your Feedback!</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="animals.html">Animals</a>
+      <a href="places.html">Places</a>
+      <a href="weather.html">Weather</a>
+    </nav>
+  </header>
+
+  <main>
+    <p>We appreciate your input and will use your feedback to make Pine City Zoo even better!</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Pine City Zoo. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
